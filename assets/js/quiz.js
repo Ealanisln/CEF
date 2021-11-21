@@ -68,7 +68,7 @@ const myQuestions = [
     // finally combine our output list into one string of HTML and put it on the page
     quizContainer.innerHTML = output.join('');
   }
-  
+
 
   function showResults(){
 
@@ -102,7 +102,7 @@ const myQuestions = [
     });
   
     // show number of correct answers out of total
-    resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+    resultsContainer.innerHTML = `${numCorrect} correctas de ${myQuestions.length}`;
   }
 
 // display quiz right away
